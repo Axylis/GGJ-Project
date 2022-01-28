@@ -160,3 +160,4 @@ Received Import Request.
 Start importing Assets/Scenes/Scene Lab 2.unity using Guid(b50e32f759e8bc447aa9570af8384cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a3c90ae7ae2b0661d65db365eeb65a') in 0.025617 seconds 
   Import took 0.034297 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
