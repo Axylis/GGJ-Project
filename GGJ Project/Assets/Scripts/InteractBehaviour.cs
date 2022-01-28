@@ -1,16 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class InteractBehaviour : MonoBehaviour
 {
-    public struct item{
-        string name;
-        Image image;
+    [System.Serializable] public struct item{
+        [SerializeField] string name;
+        [SerializeField] Sprite inventoryImage;
+
+        public void setName(string _name){
+            name = _name;
+        }
+        public string getName(){
+            return name;
+        }
+        public void setImage(Sprite _inventoryImage){
+            inventoryImage = _inventoryImage;
+        }
+        public Sprite getImage(){
+            return inventoryImage;
+        }
     };
 
-    public static List<item> allItems;
-
-
+    public List<item> allItems;
+    public List<bool> obtained;
 }
