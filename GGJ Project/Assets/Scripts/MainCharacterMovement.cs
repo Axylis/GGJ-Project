@@ -9,9 +9,11 @@ public class MainCharacterMovement : MonoBehaviour
     private float horizontalMovement = 0f;
     private SpriteRenderer sprite;
     public Animation spriteanim;
+    public Animator animcontrol;
     // Update is called once per frame
     private void Start()
     {
+        DontDestroyOnLoad(this);
         sprite = GetComponent<SpriteRenderer>();
         if(sprite == null)
         {
@@ -31,7 +33,9 @@ public class MainCharacterMovement : MonoBehaviour
         {
             sprite.flipX = true;
         }
-        else if(Input.anyKey == false)
+
+
+        if(Input.GetAxisRaw("Horizontal") == 0)
         {
             spriteanim.Stop();
         }
