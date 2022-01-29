@@ -19,7 +19,8 @@ namespace IndieMarc.TopDown
 
         static ImportPackage()
         {
-            EditorApplication.hierarchyWindowChanged += AfterLoad;
+            EditorApplication.hierarchyChanged += AfterLoad;
+            // EditorApplication.hierarchyWindowChanged += AfterLoad;
         }
 
         static void AfterLoad()
