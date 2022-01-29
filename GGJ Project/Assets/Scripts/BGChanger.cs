@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class BGChanger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public SpriteRenderer spriteRenderer;
+    public Sprite[] bg;
+    public Sprite[] player;
+    private int i;
+
+    public void changeSprite()
     {
-        
+        if(i == 0)
+        {
+            spriteRenderer.sprite = bg[i+1];
+            i++;
+        }
+        else
+        {
+            spriteRenderer.sprite = bg[0];
+            i--;
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
