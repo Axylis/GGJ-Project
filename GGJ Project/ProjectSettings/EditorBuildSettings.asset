@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Scene Lab.unity
+    path: Assets/Scenes/Prototype/Main Menu.unity
+    guid: 262be1bd046f8ad41b74d94255cd6026
+  - enabled: 1
+    path: Assets/Scenes/Balcony.unity
+    guid: 0459c6218c5969c4093d935ff6959631
+  - enabled: 1
+    path: Assets/Scenes/Prototype/Scene Lab.unity
     guid: 0f10f4a0fa90f5d488d9b86dfc416f24
   - enabled: 1
-    path: Assets/Scenes/Scene Lab 2.unity
+    path: Assets/Scenes/Prototype/Scene Lab 2.unity
     guid: b50e32f759e8bc447aa9570af8384cc1
   m_configObjects: {}
