@@ -1,41 +1,7 @@
 fileFormatVersion: 2
 guid: 3fb3bd838d085f5459a84f3252fdf439
 TextureImporter:
-<<<<<<< Updated upstream
   internalIDToNameTable: []
-=======
-  internalIDToNameTable:
-  - first:
-      213: 2746087764408397643
-    second: main chara_0
-  - first:
-      213: -3053896397472082762
-    second: main chara_1
-  - first:
-      213: -121631223887479623
-    second: main chara_2
-  - first:
-      213: -6393164993021552414
-    second: main chara_3
-  - first:
-      213: -7340495853414122371
-    second: main chara_4
-  - first:
-      213: 1298261108071339904
-    second: main chara_5
-  - first:
-      213: -9053111980482797567
-    second: main chara_6
-  - first:
-      213: -7919557710966581859
-    second: main chara_7
-  - first:
-      213: 8219642329874807334
-    second: main chara_8
-  - first:
-      213: -3903070570245478361
-    second: main chara_9
->>>>>>> Stashed changes
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -75,21 +41,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-<<<<<<< Updated upstream
   spriteMode: 1
-=======
-  spriteMode: 2
->>>>>>> Stashed changes
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-<<<<<<< Updated upstream
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-=======
-  spriteBorder: {x: 22, y: 213, z: 22, w: 29}
->>>>>>> Stashed changes
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -119,221 +77,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-<<<<<<< Updated upstream
     sprites: []
-=======
-    sprites:
-    - serializedVersion: 2
-      name: main chara_0
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 215
-        width: 75
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4feb97b5401c1620800000000000000
-      internalID: 2746087764408397643
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main chara_1
-      rect:
-        serializedVersion: 2
-        x: 23
-        y: 215
-        width: 74
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6b4d4df18616e95d0800000000000000
-      internalID: -3053896397472082762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main chara_2
-      rect:
-        serializedVersion: 2
-        x: 191
-        y: 215
-        width: 74
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bc379adb01ef4ef0800000000000000
-      internalID: -121631223887479623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main chara_3
-      rect:
-        serializedVersion: 2
-        x: 275
-        y: 215
-        width: 74
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e8dc70bf4ae647a0800000000000000
-      internalID: -6393164993021552414
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main chara_4
-      rect:
-        serializedVersion: 2
-        x: 358
-        y: 215
-        width: 74
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7cf506b9e1512a90800000000000000
-      internalID: -7340495853414122371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main chara_5
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 22
-        width: 75
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0871c4c6999540210800000000000000
-      internalID: 1298261108071339904
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main chara_6
-      rect:
-        serializedVersion: 2
-        x: 109
-        y: 22
-        width: 74
-        height: 173
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1006d738e92ec5280800000000000000
-      internalID: -9053111980482797567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main chara_7
-      rect:
-        serializedVersion: 2
-        x: 193
-        y: 22
-        width: 74
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9591a3b834181290800000000000000
-      internalID: -7919557710966581859
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main chara_8
-      rect:
-        serializedVersion: 2
-        x: 26
-        y: 22
-        width: 74
-        height: 171
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62ab3f44629021270800000000000000
-      internalID: 8219642329874807334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: main chara_9
-      rect:
-        serializedVersion: 2
-        x: 361
-        y: 22
-        width: 74
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 728ac37eef185d9c0800000000000000
-      internalID: -3903070570245478361
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
->>>>>>> Stashed changes
     outline: []
     physicsShape: []
     bones: []
