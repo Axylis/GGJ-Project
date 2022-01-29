@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Sprites;
+using UnityEngine.Animations;
 
 public class MainCharacterMovement : MonoBehaviour
 {
     public float moveSpeed = 10f;
     private float horizontalMovement = 0f;
     private SpriteRenderer sprite;
+    public Animation spriteanim;
     // Update is called once per frame
     private void Start()
     {
@@ -26,9 +27,13 @@ public class MainCharacterMovement : MonoBehaviour
         {
             sprite.flipX = false;
         }
-        if(Input.GetAxisRaw("Horizontal") > 0)
+        else if(Input.GetAxisRaw("Horizontal") > 0)
         {
             sprite.flipX = true;
+        }
+        else if(Input.anyKey == false)
+        {
+            spriteanim.Stop();
         }
     }
 }
