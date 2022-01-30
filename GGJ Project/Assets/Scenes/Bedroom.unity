@@ -938,6 +938,15 @@ MonoBehaviour:
   itemList: {fileID: 571572405}
   inventorySlot: []
   speechScript: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+--- !u!95 &871682323 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4711501915941729914, guid: dc95ab0c8f404f84cb872ff084769bba,
+    type: 3}
+  m_PrefabInstance: {fileID: 6674311}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!1 &881988377
 GameObject:
   m_ObjectHideFlags: 0
@@ -1222,6 +1231,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1019405814}
   - component: {fileID: 1019405813}
+  - component: {fileID: 1019405815}
+  - component: {fileID: 1019405816}
   m_Layer: 0
   m_Name: saklar kamar 1
   m_TagString: Untagged
@@ -1294,6 +1305,64 @@ Transform:
   m_Father: {fileID: 2062884265}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1019405815
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019405812}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 034b49332e161a94992f0d98bbcef1d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bgRenderer: {fileID: 2062884264}
+  propRender1: {fileID: 1019405813}
+  propRender2: {fileID: 1019405813}
+  propRender3: {fileID: 1019405813}
+  bg:
+  - {fileID: 21300000, guid: 07a09cf82edbc3048b5f12a2872f9e28, type: 3}
+  - {fileID: 21300000, guid: e2bee336de6fc474baf7fb19dd091417, type: 3}
+  playerRenderer: {fileID: 871682323}
+  prop1:
+  - {fileID: 21300000, guid: fd3693566ba168c4e9ce4ec090cbeb47, type: 3}
+  - {fileID: 21300000, guid: 8a392e5fedfe81e42a96ab78775202c8, type: 3}
+  prop2:
+  - {fileID: 21300000, guid: fd3693566ba168c4e9ce4ec090cbeb47, type: 3}
+  - {fileID: 21300000, guid: 8a392e5fedfe81e42a96ab78775202c8, type: 3}
+  prop3:
+  - {fileID: 21300000, guid: fd3693566ba168c4e9ce4ec090cbeb47, type: 3}
+  - {fileID: 21300000, guid: 8a392e5fedfe81e42a96ab78775202c8, type: 3}
+  playerAnim:
+  - {fileID: 9100000, guid: a5e3a63acca705b4f932957c9ed94894, type: 2}
+  - {fileID: 9100000, guid: 514257118702a3246853f28c88fa245b, type: 2}
+--- !u!61 &1019405816
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1019405812}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.9425411, y: 0.42595607}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 10.24, y: 5.12}
+    newSize: {x: 10.24, y: 5.12}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.37957096, y: 0.38916934}
+  m_EdgeRadius: 0
 --- !u!1 &1071315206
 GameObject:
   m_ObjectHideFlags: 0
@@ -2115,10 +2184,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bgRenderer: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+  propRender1: {fileID: 0}
+  propRender2: {fileID: 0}
+  propRender3: {fileID: 0}
+>>>>>>> Stashed changes
   bg:
   - {fileID: 21300000, guid: 8d65133ca6d7e0643830b3b3bba77f6c, type: 3}
   - {fileID: 21300000, guid: e2bee336de6fc474baf7fb19dd091417, type: 3}
   playerRenderer: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+  prop1: []
+  prop2: []
+  prop3: []
+  playerAnim: []
+>>>>>>> Stashed changes
 --- !u!114 &1782325491
 MonoBehaviour:
   m_ObjectHideFlags: 0
