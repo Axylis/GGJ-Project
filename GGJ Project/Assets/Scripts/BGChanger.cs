@@ -16,16 +16,20 @@ public class BGChanger : MonoBehaviour
     public Sprite[] prop2;
     public Sprite[] prop3;
     public RuntimeAnimatorController[] playerAnim;
+    public AudioSource dayBGM;
+    public AudioSource nightBGM;
 
     private void Awake()
     {
         playerRenderer.runtimeAnimatorController = playerAnim[0];
+        dayBGM.Play();
     }
 
     public void OnMouseDown()
     {
         playerChange();
         BGChange();
+        BGMChanger();
     }
 
     private void BGChange()
@@ -68,6 +72,19 @@ public class BGChanger : MonoBehaviour
         {
             //back to default state
             playerRenderer.runtimeAnimatorController = playerAnim[0];
+        }
+    }
+    private void BGMChanger()
+    {
+        if(dayBGM.isPlaying)
+        {
+            dayBGM.Stop();
+            nightBGM.Play();
+        }
+        else if(nightBGM.isPlaying)
+        {
+            nightBGM.Stop();
+            dayBGM.Play();
         }
     }
 }
