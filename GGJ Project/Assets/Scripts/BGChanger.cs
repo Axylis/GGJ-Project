@@ -1,9 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-<<<<<<< Updated upstream
-=======
 using UnityEngine.U2D.Animation;
->>>>>>> Stashed changes
 
 [RequireComponent(typeof(Collider2D))]
 public class BGChanger : MonoBehaviour
@@ -13,10 +10,6 @@ public class BGChanger : MonoBehaviour
     public SpriteRenderer propRender2;
     public SpriteRenderer propRender3;
     public Sprite[] bg;
-<<<<<<< Updated upstream
-    public SpriteRenderer playerRenderer;
-    private int i;
-=======
     public Animator playerRenderer;
     private int i = 0;
     public Sprite[] prop1;
@@ -28,12 +21,11 @@ public class BGChanger : MonoBehaviour
     {
         //_resolvers = GetComponentsInChildren<SpriteResolver>().ToList();
     }
->>>>>>> Stashed changes
 
     public void OnMouseDown()
     {
-        BGChange();
         playerChange();
+        BGChange();
     }
 
     private void BGChange()

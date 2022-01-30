@@ -6,11 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD:GGJ Project/Assets/Visuals/Finished Visuals/Character/Animations/Ver1Idle.anim
-  m_Name: Ver1Idle
-=======
   m_Name: Ver2Idle
->>>>>>> d8f51bcaa5deea7e3b8fb5f97c53c4740cbfc8ef:GGJ Project/Assets/Visuals/Finished Visuals/Character/Animations/Ver2Idle.anim
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -24,17 +20,10 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-<<<<<<< HEAD:GGJ Project/Assets/Visuals/Finished Visuals/Character/Animations/Ver1Idle.anim
-      value: {fileID: 2746087764408397643, guid: 3fb3bd838d085f5459a84f3252fdf439,
-        type: 3}
-    - time: 1
-      value: {fileID: 2746087764408397643, guid: 3fb3bd838d085f5459a84f3252fdf439,
-=======
       value: {fileID: 4090173261861913478, guid: d227780342b35fa4b87b4f0ae43e5337,
         type: 3}
     - time: 1
       value: {fileID: 4090173261861913478, guid: d227780342b35fa4b87b4f0ae43e5337,
->>>>>>> d8f51bcaa5deea7e3b8fb5f97c53c4740cbfc8ef:GGJ Project/Assets/Visuals/Finished Visuals/Character/Animations/Ver2Idle.anim
         type: 3}
     attribute: m_Sprite
     path: 
@@ -55,13 +44,8 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-<<<<<<< HEAD:GGJ Project/Assets/Visuals/Finished Visuals/Character/Animations/Ver1Idle.anim
-    - {fileID: 2746087764408397643, guid: 3fb3bd838d085f5459a84f3252fdf439, type: 3}
-    - {fileID: 2746087764408397643, guid: 3fb3bd838d085f5459a84f3252fdf439, type: 3}
-=======
     - {fileID: 4090173261861913478, guid: d227780342b35fa4b87b4f0ae43e5337, type: 3}
     - {fileID: 4090173261861913478, guid: d227780342b35fa4b87b4f0ae43e5337, type: 3}
->>>>>>> d8f51bcaa5deea7e3b8fb5f97c53c4740cbfc8ef:GGJ Project/Assets/Visuals/Finished Visuals/Character/Animations/Ver2Idle.anim
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
