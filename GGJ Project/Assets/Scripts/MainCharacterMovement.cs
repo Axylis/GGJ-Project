@@ -23,7 +23,7 @@ public class MainCharacterMovement : MonoBehaviour
         horizontalMovement = Input.GetAxisRaw("Horizontal");
         Move();
         Animate();
-        Debug.Log("(" + transform.position.x + "," + transform.position.y + ")");
+        // Debug.Log("(" + transform.position.x + "," + transform.position.y + ")");
     }
 
     private void Move(){
