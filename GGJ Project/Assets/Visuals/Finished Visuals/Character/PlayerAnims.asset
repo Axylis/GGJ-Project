@@ -12,4 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bf7c34a0dc4e6348bea04faa70406ee, type: 3}
   m_Name: PlayerAnims
   m_EditorClassIdentifier: 
-  m_Labels: []
+  m_Labels:
+  - m_Name: Player
+    m_Hash: -1615495341
+    m_CategoryList:
+    - m_Name: main
+      m_Hash: -1087845020
+      m_Sprite: {fileID: 2746087764408397643, guid: 3fb3bd838d085f5459a84f3252fdf439,
+        type: 3}
+    - m_Name: ver2
+      m_Hash: -187538589
+      m_Sprite: {fileID: 4090173261861913478, guid: d227780342b35fa4b87b4f0ae43e5337,
+        type: 3}
