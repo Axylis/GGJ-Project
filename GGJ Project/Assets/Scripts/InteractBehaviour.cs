@@ -6,6 +6,7 @@ public class InteractBehaviour : MonoBehaviour
     [System.Serializable] public struct item{
         [SerializeField] string name;
         [SerializeField] Sprite inventoryImage;
+        public bool hidden;
 
         public void setName(string _name){
             name = _name;
@@ -22,5 +23,5 @@ public class InteractBehaviour : MonoBehaviour
     };
 
     public List<item> allItems;
-    public List<bool> obtained;
+    public List<bool> hidden;
 }

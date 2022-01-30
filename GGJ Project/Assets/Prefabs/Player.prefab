@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 3581151874464087347}
   - component: {fileID: 2181834163758110529}
   - component: {fileID: 1656533168548256170}
+  - component: {fileID: 3229533394668572675}
   m_Layer: 0
   m_Name: Speech Canvas
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,6 +101,20 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &3229533394668572675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052962250657783239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4112b416343fcbc4ab6f72a237b84260, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speechBuble: {fileID: 1245532012720877552}
+  speechText: {fileID: 637121548371636043}
 --- !u!1 &2054939945063336573
 GameObject:
   m_ObjectHideFlags: 0
