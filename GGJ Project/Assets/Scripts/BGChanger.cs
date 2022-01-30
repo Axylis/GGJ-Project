@@ -19,7 +19,7 @@ public class BGChanger : MonoBehaviour
 
     private void Awake()
     {
-        //_resolvers = GetComponentsInChildren<SpriteResolver>().ToList();
+        playerRenderer.runtimeAnimatorController = playerAnim[0];
     }
 
     public void OnMouseDown()

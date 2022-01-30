@@ -1721,6 +1721,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108801273}
   m_CullTransparentMesh: 1
+--- !u!95 &1262483069 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4711501915941729914, guid: 39bf0f8c6a5795140a309b452174d5f6,
+    type: 3}
+  m_PrefabInstance: {fileID: 1946475508}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1407026261
 GameObject:
   m_ObjectHideFlags: 0
@@ -1767,10 +1773,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bgRenderer: {fileID: 675321291}
+  propRender1: {fileID: 1407026265}
+  propRender2: {fileID: 71221899}
+  propRender3: {fileID: 25878679}
   bg:
   - {fileID: 21300000, guid: ab5927bbff717be4cbd9d120a317d744, type: 3}
   - {fileID: 21300000, guid: 32dcb9e70927df2408bac309bb2a57f6, type: 3}
-  playerRenderer: {fileID: 0}
+  playerRenderer: {fileID: 1262483069}
+  prop1:
+  - {fileID: 21300000, guid: f7497e0ef35725b44b33412728d95e2b, type: 3}
+  - {fileID: 21300000, guid: 24bd4cfba3388964d99bac6f0d67e508, type: 3}
+  prop2:
+  - {fileID: 21300000, guid: 7d587f2cc22a6784e83890bb23d6664e, type: 3}
+  - {fileID: 21300000, guid: 81859d7b440d8924c9fd2e5b80f57767, type: 3}
+  prop3:
+  - {fileID: 21300000, guid: ab82e45bd96e5744bb25ba459814796b, type: 3}
+  - {fileID: 21300000, guid: 27b5992a66cb22a429abd93315cb94e7, type: 3}
+  playerAnim:
+  - {fileID: 9100000, guid: a5e3a63acca705b4f932957c9ed94894, type: 2}
+  - {fileID: 9100000, guid: 73abcee54af77774791dd9d8e1584424, type: 2}
 --- !u!61 &1407026264
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1784,7 +1805,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -4.766778, y: 0.19024837}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1795,7 +1816,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 10.24, y: 5.12}
+  m_Size: {x: 0.4105029, y: 0.5540407}
   m_EdgeRadius: 0
 --- !u!212 &1407026265
 SpriteRenderer:
