@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:GGJ Project/Assets/Scenes/Kitchen/Main Chara Idle.anim.meta
 guid: f5ee6874841a71d4b87fdf018a788961
+=======
+guid: 269fd7d037d01a145899b7d4baeb9210
+>>>>>>> d8f51bcaa5deea7e3b8fb5f97c53c4740cbfc8ef:GGJ Project/Assets/Visuals/Finished Visuals/Character/Animations/Ver2Idle.anim.meta
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000
