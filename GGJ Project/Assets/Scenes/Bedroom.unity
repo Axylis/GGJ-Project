@@ -215,6 +215,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 4711501915941729914, guid: dc95ab0c8f404f84cb872ff084769bba,
+        type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 251735fe931f7ae4387f5628ab811c4f, type: 2}
     - target: {fileID: 4711501915941729915, guid: dc95ab0c8f404f84cb872ff084769bba,
         type: 3}
       propertyPath: m_SortingOrder
@@ -550,6 +555,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemID: 1
+  speechGroupNum: -1
+  takeAfterInteract: 0
+  autoMove: 1
+  interactRange: 0.2
+  interactLocation: {fileID: 0}
 --- !u!61 &402609000
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -622,6 +632,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemID: 3
+  speechGroupNum: -1
+  takeAfterInteract: 0
+  autoMove: 1
+  interactRange: 0.2
+  interactLocation: {fileID: 0}
 --- !u!61 &425225368
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -892,13 +907,17 @@ MonoBehaviour:
   allItems:
   - name: Black Box
     inventoryImage: {fileID: 21300000, guid: 2e06e4329086df8499f1e349e6ae486b, type: 3}
+    hidden: 0
   - name: Green Box
     inventoryImage: {fileID: 21300000, guid: 1f43bc475a4812f4593c000a20c61eb9, type: 3}
+    hidden: 0
   - name: Black Box
     inventoryImage: {fileID: 21300000, guid: 2e06e4329086df8499f1e349e6ae486b, type: 3}
+    hidden: 0
   - name: Green Box
     inventoryImage: {fileID: 21300000, guid: 1f43bc475a4812f4593c000a20c61eb9, type: 3}
-  obtained: 00000000
+    hidden: 0
+  hidden: 
 --- !u!114 &571572406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -918,6 +937,7 @@ MonoBehaviour:
   - {fileID: 1591076638}
   itemList: {fileID: 571572405}
   inventorySlot: []
+  speechScript: {fileID: 0}
 --- !u!1 &881988377
 GameObject:
   m_ObjectHideFlags: 0
@@ -1002,7 +1022,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &886890393
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1372,6 +1392,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemID: 0
+  speechGroupNum: -1
+  takeAfterInteract: 0
+  autoMove: 1
+  interactRange: 0.2
+  interactLocation: {fileID: 0}
 --- !u!61 &1071315210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1915,6 +1940,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemID: 2
+  speechGroupNum: -1
+  takeAfterInteract: 0
+  autoMove: 1
+  interactRange: 0.2
+  interactLocation: {fileID: 0}
 --- !u!61 &1643717041
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2084,12 +2114,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 034b49332e161a94992f0d98bbcef1d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 0}
+  bgRenderer: {fileID: 0}
   bg:
   - {fileID: 21300000, guid: 8d65133ca6d7e0643830b3b3bba77f6c, type: 3}
   - {fileID: 21300000, guid: e2bee336de6fc474baf7fb19dd091417, type: 3}
-  player:
-  - {fileID: 0}
+  playerRenderer: {fileID: 0}
 --- !u!114 &1782325491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2203,7 +2232,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1864565950
 MonoBehaviour:
   m_ObjectHideFlags: 0
