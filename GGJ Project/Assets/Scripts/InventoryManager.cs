@@ -29,11 +29,13 @@ public class InventoryManager : MonoBehaviour
 
     public bool addItem(int id, int groupNum, bool hide){
         if(inventorySlot.Count < inventoryUI.Count){
-            inventorySlot.Add(itemList.allItems[id]);
-            itemList.hidden[id] = hide;
-            // Debug.Log("Added " + itemList.allItems[id].getName() + " to inventory slot " + (inventorySlot.Count - 1).ToString());
-            inventoryUI[inventorySlot.Count - 1].sprite = itemList.allItems[id].getImage();
-
+            if(hide){
+                itemList.hidden[id] = hide;
+                inventorySlot.Add(itemList.allItems[id]);
+                // Debug.Log("Added " + itemList.allItems[id].getName() + " to inventory slot " + (inventorySlot.Count - 1).ToString());
+                inventoryUI[inventorySlot.Count - 1].sprite = itemList.allItems[id].getImage();
+            }
+            
             if(groupNum >= 0){
                 updateScriptInstance();
                 

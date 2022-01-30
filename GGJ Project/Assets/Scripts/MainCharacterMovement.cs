@@ -12,6 +12,8 @@ public class MainCharacterMovement : MonoBehaviour
     private float horizontalMovement = 0f;
     private SpriteRenderer sprite;
     private Animator spriteanim;
+    [HideInInspector] public bool autoMove;
+    [HideInInspector] public Transform targetLocation;
 
     private void Start()
     {
@@ -20,7 +22,15 @@ public class MainCharacterMovement : MonoBehaviour
     }
     private void Update()
     {
-        horizontalMovement = Input.GetAxisRaw("Horizontal");
+        if(autoMove){
+            if(transform.position.x < targetLocation.position.x){
+                horizontalMovement = 1;
+            }else{
+                horizontalMovement = -1;
+            }
+        }else{
+            horizontalMovement = Input.GetAxisRaw("Horizontal");
+        }
         Move();
         Animate();
         // Debug.Log("(" + transform.position.x + "," + transform.position.y + ")");

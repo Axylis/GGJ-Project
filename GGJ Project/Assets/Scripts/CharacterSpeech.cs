@@ -8,7 +8,7 @@ public class CharacterSpeech : MonoBehaviour
     [SerializeField] Text speechText;
     [SerializeField] List<StringListWrapper> allDialogue;
 
-    [HideInInspector] public bool isSpeaking;
+    [HideInInspector] public bool isSpeaking, recentSpeak;
     int activeGroup, currentLine;
 
     [System.Serializable]
@@ -37,6 +37,7 @@ public class CharacterSpeech : MonoBehaviour
 
     public void startSpeech(int groupNum){
         isSpeaking = true;
+        recentSpeak = true;
         activeGroup = groupNum;
         currentLine = -1;
         nextLine();
@@ -53,17 +54,23 @@ public class CharacterSpeech : MonoBehaviour
     void Update(){
         speechBuble.gameObject.SetActive(isSpeaking);
         if(transform.position.x > 0){
-            speechText.transform.rotation = Quaternion.Euler(0, 180, 0);
-            speechBuble.rotation = Quaternion.Euler(0, 180, 0);
+            speechText.rectTransform.localRotation = Quaternion.Euler(0, 180, 0);
+            // speechText.transform.rotation = Quaternion.Euler(0, 180, 0);
+            speechBuble.localRotation = Quaternion.Euler(0, 180, 0);
         }else{
-            speechText.transform.rotation = Quaternion.Euler(0, 0, 0);
-            speechBuble.rotation = Quaternion.Euler(0, 0, 0);
+            speechText.rectTransform.localRotation = Quaternion.Euler(0, 0, 0);
+            // speechText.transform.rotation = Quaternion.Euler(0, 0, 0);
+            speechBuble.localRotation = Quaternion.Euler(0, 0, 0);
         }
 
-        if(isSpeaking){
+        if(isSpeaking && !recentSpeak){
             if(Input.GetMouseButtonDown(0)){
                 nextLine();
             }
         }
+    }
+
+    void LateUpdate(){
+        recentSpeak = false;
     }
 }
